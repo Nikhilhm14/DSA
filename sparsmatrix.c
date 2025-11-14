@@ -51,8 +51,9 @@ void displaymatrix(NODE start,int m,int n){
             else{
                 printf("0\t");
             }
-            printf("\n");
+           
         }
+         printf("\n");
     }
 }
 int main(){
@@ -73,4 +74,5 @@ int main(){
     printf("\nspars matrix is:\n");
     displaymatrix(start,m,n);
     return 0;
+
 }
